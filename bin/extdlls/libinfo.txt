@@ -1,8 +1,16 @@
 FixApi.dll            -->  APE
-thosttraderapi.dll    -->  CTP
 FixApi.dll            -->  VIP
 libeay32.dll          -->  VIP
 msvcp60.dll           -->  VIP
 ssleay32.dll          -->  VIP
+t2sdk.dll             -->  UFF、UFS
+DataCollection.dll    -->  UFF 穿透式
+HsFutuSystemInfo.dll  -->  UFF 穿透式
+WinDataCollect.dll    -->  UFF 穿透式
+thosttraderapi.dll    -->  CTP
+thosttraderapi_se.dll -->  CTP 穿透式
+WinDataCollect.dll    -->  CTP 穿透式
 
-注：APE 和 VIP 的 FixApi.dll 目前不能共存，务必注意区分。
+注：APE 和 VIP 的 FixApi.dll 目前不能共存，务必注意区分。使用 VIP 的 FixApi.dll 时会导致 trader_ape.dll 插件加载失败。
+    CTP 穿透式 和 UFF 穿透式 均含 WinDataCollect.dll 可能需要区分。
+    目前各家期货公司的 CTP 穿透式 API 貌似不通用了，各家混用可能会像搞错测试版和生产版一样报 Decrypt handshake data failed 错误。

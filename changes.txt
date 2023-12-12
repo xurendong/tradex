@@ -1,4 +1,15 @@
 
+2023-12-12 0.5.1:
+ - 01、update Windows compile environment from VS 2017 to VS 2022
+ - 02、compile with x86 utf-8 basicx-1.0.3
+
+2019-09-26 0.5.0:
+ - 01、tradex V0.1.0-Beta Build 20190926
+ - 02、trader_ctp V0.1.0-Beta Build 20190926
+ - 03、trader_vip V0.1.0-Beta Build 20190926
+ - 04、trader_ape V0.1.0-Beta Build 20190926
+ - 05、compile with x86 utf-8 basicx-1.0.0
+
 2018-09-12 0.4.0:
  - 01、tradex V0.1.0-Beta Build 20180601
  - 02、trader_ctp V0.1.0-Beta Build 20180716
